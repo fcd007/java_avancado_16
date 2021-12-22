@@ -3,7 +3,7 @@
 # RESUMO
 
 Curso, que aborda conceitos avançados como:
-* generics, annotations e Reflection API. 
+* Generics, annotations e Reflection API. 
 * Expressões Lambda e Stream API. Além disso, programação multithread com o pacote java.util.concurrent.
 * Programação em rede usando sockets TCP/UDP e integração com bancos de dados via JDBC são apenas mais alguns dos assuntos presentes.
 * A versão da linguagem apresentada no curso é o Java 16.
