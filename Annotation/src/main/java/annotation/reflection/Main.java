@@ -20,7 +20,8 @@ public class Main {
 			Executar annotation= method.getDeclaredAnnotation(Executar.class);
 			
 			if(annotation != null) {
-				method.invoke(mc);
+				String argumento = annotation.arg();
+				method.invoke(mc, argumento);
 			}
 		}
 	}

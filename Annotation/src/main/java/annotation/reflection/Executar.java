@@ -7,5 +7,8 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Executar {
+public @interface Executar {	
+	String arg();
+	//podemos usar o value para retorno de valores
+	// String value()
 }

@@ -2,17 +2,19 @@ package annotation.reflection;
 
 public class MinhaClasse {
 
-	
-	@Executar	
-	public void m1() {
-		System.out.println("m1()");
+	@Executar(arg = "A")
+	//@Executar("A") //podemos omitir o value por padrão
+	public void m1(String params) {
+		System.out.println("m1() : " + params);
 	}
-	
-	public void m2() {
-		System.out.println("m2()");
+
+	@Executar(arg = "B")
+	//@Executar("B") //podemos omitir o value por padrão
+	public void m2(String params) {
+		System.out.println("m2() : " + params);
 	}
-	
-	public void m3() {
-		System.out.println("m3()");
+
+	public void m3(String params) {
+		System.out.println("m3() : " + params);
 	}
 }
